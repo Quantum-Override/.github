@@ -2,6 +2,8 @@ name: Feature Request
 description: Suggest a new feature for this project
 title: "[Feature]: "
 labels: ["feature request"]
+projects:
+  - https://github.com/orgs/Quantum-Override/projects/1
 body:
   - type: markdown
     attributes:
