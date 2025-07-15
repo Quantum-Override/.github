@@ -1,0 +1,39 @@
+name: Enhancement
+description: Request an improvement to existing features or processes
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Enhancement Request
+        Please describe the improvement you’d like to see.
+  - type: input
+    id: summary
+    attributes:
+      label: Enhancement Summary
+      description: What would you like to improve?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Behavior
+      description: What is the current behavior or limitation?
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested Improvement
+      description: How would you like this to change?
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+      description: What are the benefits of this enhancement?
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else to add?
