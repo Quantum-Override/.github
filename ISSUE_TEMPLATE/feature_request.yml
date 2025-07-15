@@ -10,6 +10,14 @@ body:
       value: |
         ### Thanks for suggesting a feature!
         Please describe your idea below.
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Tool/Project:
+      multiple: false
+      options:
+        - Sigma.Test
+        - Sigma.Build
   - type: input
     id: summary
     attributes:
